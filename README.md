@@ -5,7 +5,7 @@ Calendar component for ReactNative. It is stateless component.
 
 ## install 
 ```
-npm install --save react-native-calendar-component
+npm install --save react-native-calendar-component-patch
 ```
 
 ## props
@@ -23,7 +23,7 @@ npm install --save react-native-calendar-component
 
 ```javascript
 import React, { Component } from "react";
-import Calendar   from "react-native-calendar-component";
+import Calendar   from "react-native-calendar-component-patch";
 
 export default class CalendarTest extends Component {
     constructor(props) {
